@@ -97,7 +97,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         runOnUiThread(new Runnable(){
             @Override
             public void run() {
+
                 start.setText("Start");
+                textView.setText(" ");
             }
         });
     }
